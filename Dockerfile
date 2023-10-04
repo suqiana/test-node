@@ -25,5 +25,7 @@ COPY index.js /app/
 # 设置环境变量
 ENV NODE_ENV=production
 
+EXPOSE 3000
+
 # 启动应用程序
 CMD ["node", "/app/index.js"]
